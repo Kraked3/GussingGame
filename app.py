@@ -5,6 +5,9 @@ amt_of_guesses = 1
 difficulty = input("What difficulty would you like to play? (Easy, Medium, Hard): ")
 guess_limit = ""
 
+while difficulty != "Easy" and difficulty != "Medium" and difficulty != "Hard":
+    difficulty = input("What difficulty would you like to play? (Easy, Medium, Hard): ")
+
 if difficulty == "Easy":
     guess_limit = 5
 elif difficulty == "Medium":
